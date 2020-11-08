@@ -1,0 +1,23 @@
+#include <iostream>
+ // code by Kamara
+using namespace std;
+ 
+int main()
+{
+  // programme checks if year is a leap year
+  
+  cout << "Check if a Year is a Leap Year" << endl <<endl;
+    int year;
+    cout << "Please Enter Year in YYYY:" <<endl;
+    cin >> year;
+	
+    //year % 4 computes if year has a remainder when year is divided by 4 if not it is a leap year
+
+    if ( year % 4 == 0 )
+        cout << year << " Is a Leap Year ";
+    else 
+ 
+  cout << year << " Is Not a Leap Year ";
+  
+  return 0;
+}
